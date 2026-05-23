@@ -6,7 +6,7 @@
 
 ## English
 
-A clean, professional, and lightweight local antivirus application written in Python. It features a modern, asynchronous graphical user interface built with CustomTkinter, a rule-based scan engine, a safe quarantine manager, and structured scan history log tracking using SQLite. All interface labels, diagnostics, and outputs are fully presented in English under the name **VSChecker**.
+A clean and lightweight local antivirus application written in Python. It features a modern, asynchronous graphical user interface built with CustomTkinter, a rule-based scan engine, a safe quarantine manager, and structured scan history log tracking using SQLite. All interface labels, diagnostics, and outputs are fully presented in English under the name **VSChecker**.
 
 ### Advanced Features
 - **Heuristic Entropy Analysis**: Evaluates the Shannon Entropy of executable files. If a binary has an entropy score above `7.5`, it is flagged as `Suspicious file (High entropy)` due to potential packing, obfuscation, or encryption (common in ransomware and malware loaders).
@@ -63,7 +63,7 @@ python vs_checker.py
 
 ## Türkçe
 
-Python ile geliştirilmiş temiz, profesyonel ve hafif bir yerel antivirüs uygulaması. CustomTkinter ile tasarlanmış modern ve asenkron grafik arayüz, kural tabanlı tarama motoru, güvenli karantina yöneticisi ve SQLite kullanan yapılandırılmış tarama geçmişi kaydı sunar. Tüm arayüz etiketleri ve çıktılar tamamen İngilizce olarak **VSChecker** ismi altında sunulmaktadır.
+Python ile geliştirilmiş temiz ve hafif bir yerel antivirüs uygulaması. CustomTkinter ile tasarlanmış modern ve asenkron grafik arayüz, kural tabanlı tarama motoru, güvenli karantina yöneticisi ve SQLite kullanan yapılandırılmış tarama geçmişi kaydı sunar. Tüm arayüz etiketleri ve çıktılar tamamen İngilizce olarak **VSChecker** ismi altında sunulmaktadır.
 
 ### Gelişmiş Özellikler
 - **Hevristik Entropi Analizi**: Çalıştırılabilir dosyaların Shannon Entropisini hesaplar. Eğer bir dosya `7.5` değerinden yüksek bir entropiye sahipse, şifrelenmiş, paketlenmiş (packed) veya gizlenmiş olma ihtimaline karşı (zararlı yazılımlarda yaygındır) `Suspicious file (High entropy)` şeklinde işaretlenir.
